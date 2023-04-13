@@ -34,6 +34,9 @@ yabai -m rule --add app="^Karabiner-Elements$" manage=off
 yabai -m rule --add app="^QuickTime Player$" manage=off
 yabai -m rule --add app="^iStat Menus$" manage=off
 yabai -m rule --add app="^Spotify$" manage=off
+yabai -m rule --add app="^Raycast$" manage=off
+yabai -m rule --add app="^AtlasVPN$" manage=off
+yabai -m rule --add app="^Finder$" manage=off
 
 # disables mouse focus on toolbar dropdowns
 yabai -m rule --add app="iStat Menus.*" manage=off mouse_follows_focus=off
