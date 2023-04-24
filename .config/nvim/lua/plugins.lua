@@ -17,6 +17,7 @@ packer.startup(function(use)
   use 'hrsh7th/nvim-cmp'                -- Completion
   use 'neovim/nvim-lspconfig'           -- LSP
   use 'jose-elias-alvarez/null-ls.nvim' -- Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua
+  use 'MunifTanjim/prettier.nvim'       -- Prettier plugin for Neovim's built-in LSP client
   use 'williamboman/mason.nvim'
   use 'williamboman/mason-lspconfig.nvim'
 
@@ -48,4 +49,10 @@ packer.startup(function(use)
   use 'lewis6991/gitsigns.nvim'
   use 'dinhhuy258/git.nvim' -- For git blame & browse
   use 'lervag/vimtex'
+  use 'mfussenegger/nvim-jdtls'
+  use 'mfussenegger/nvim-dap'                  -- java Debug Adapter Protocol
+  use { "folke/trouble.nvim",
+    requires = "nvim-tree/nvim-web-devicons" } --Better diagnostics navigation
+  use { "rcarriga/nvim-dap-ui", requires = { "mfussenegger/nvim-dap" } }
+  use "folke/neodev.nvim"                      --To work with dap-ui
 end)

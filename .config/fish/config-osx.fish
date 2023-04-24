@@ -1,4 +1,4 @@
-
+alias tyler "imgcat ~/.local/share/fastfetch/logos/tyler1.png"
    
 if type -q exa
   alias ll "exa -l -g --icons"
