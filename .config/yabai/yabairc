@@ -37,6 +37,7 @@ yabai -m rule --add app="^Spotify$" manage=off
 yabai -m rule --add app="^Raycast$" manage=off
 yabai -m rule --add app="^AtlasVPN$" manage=off
 yabai -m rule --add app="^Finder$" manage=off
+yabai -m rule --add app="^SoundCloud$" manage=off
 
 # disables mouse focus on toolbar dropdowns
 yabai -m rule --add app="iStat Menus.*" manage=off mouse_follows_focus=off

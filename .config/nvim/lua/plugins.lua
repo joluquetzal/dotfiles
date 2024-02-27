@@ -8,7 +8,12 @@ vim.cmd [[packadd packer.nvim]]
 
 packer.startup(function(use)
   use 'wbthomason/packer.nvim'
-  use 'folke/tokyonight.nvim'           -- Theme
+  use 'folke/tokyonight.nvim'             -- Theme
+  use {
+    "briones-gabriel/darcula-solid.nvim", -- Java files theme
+    requires = "rktjmp/lush.nvim"
+  }
+  use 'Adrian-007391/AutoColor'         -- Theme manager
   use 'nvim-lualine/lualine.nvim'       -- Statusline
   use 'nvim-lua/plenary.nvim'           -- Common utilities
   use 'onsails/lspkind-nvim'            -- vscode-like pictograms

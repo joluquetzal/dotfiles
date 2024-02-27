@@ -8,4 +8,7 @@ function fish_user_key_bindings
 
   # prevent iterm2 from closing when typing Ctrl-D (EOF)
   bind \cd delete-char
+
+  # Bind for change controlversions on NVIM
+  bind \ca nvims  
 end
